@@ -13,6 +13,7 @@ $1.md : $1.ipynb
 	@echo "Converting $$< -> $$@"
 	@echo "-------------------------"
 	cd .. && uv run jupyter nbconvert --HTMLExporter.sanitize_html=true blogs/$$< --to markdown \
+# 		--template-file=blogs/custom_markdown.tpl \
 		--TagRemovePreprocessor.remove_input_tags="['remove_input','remove_output']" \
 		--NbConvertApp.output_files_dir=./blogs/assets/images/$1 \
 		--ExtractOutputPreprocessor.output_filename_template='fig_{index}{extension}'
