@@ -9,3 +9,7 @@ uv.lock
 **/*.md
 !README.md
 .vscode
+.ipynb_checkpoints
+jupyter_config
+almond
+.metals
