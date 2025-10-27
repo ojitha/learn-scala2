@@ -1,7 +1,8 @@
 blogsSources := 2025-07-25-Scala-basics \
 	2025-07-25-Scala-Collections \
     2025-10-24-Scala2Closures \
-    2025-10-26-Scala2-Functors
+    2025-10-26-Scala2-Functors \
+    2025-10027-Scala-2-Collections
 
 source += $(blogsSources)
 
