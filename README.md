@@ -78,6 +78,14 @@ The conversion process:
 - **Scala Basics**: Introduction to Scala 2 fundamentals
 - **Scala Collections**: Working with Scala collections
 
+### Generate via Jupyter lab
+
+```bash
+make
+cd ../../ojitha.github.io && make
+cd ../learn-scala2/blogs
+```
+
 ## License
 
 See [LICENSE](LICENSE) for details.
