@@ -7,4 +7,6 @@ requires-python = ">=3.9.6"
 dependencies = [
     "jupyter>=1.1.1",
     "jupyterlab-git>=0.51.2",
+    "spylon-kernel>=0.4.1",
+    "toree>=0.5.0",
 ]
