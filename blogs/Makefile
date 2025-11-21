@@ -21,7 +21,8 @@ $1.md : $1.ipynb
 		--TagRemovePreprocessor.remove_input_tags="['remove_input','remove_output']" \
 		--NbConvertApp.output_files_dir=./blogs/assets/images/$1 \
 		--ExtractOutputPreprocessor.output_filename_template='fig_{index}{extension}'
-		
+
+	sed -i '' -E 's#(!\[[^]]*\]\().*/blog/assets/images#\1https://raw.githubusercontent.com/ojitha/blog/master/assets/images#g' $$@	
 	sed -i '' -E 's/\x1B\[[0-9;]*[mK]//g' $$@
 	sed -i '' -E 's/\(\.\/assets/\(\/assets/g' $$@
 	@echo "Processing mermaid diagrams..."

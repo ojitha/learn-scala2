@@ -13,3 +13,7 @@ uv.lock
 jupyter_config
 almond
 .metals
+.DS_Store
+***.bloop/**
+.semanticdb
+target/
