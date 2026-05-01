@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.9.6"
 dependencies = [
     "jupyter>=1.1.1",
-    "jupyter-ai>=2.31.6",
+    "jupyter-ai[all,gemini]>=2.31.6",
     "jupyterlab-git>=0.51.2",
     "langchain-google-genai>=2.1.12",
     "spylon-kernel>=0.4.1",

@@ -17,3 +17,6 @@ almond
 ***.bloop/**
 .semanticdb
 target/
+**/.bloop/**
+project
+.scala-build
